@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .page-font {
+        font-family: sans-serif;
+    }
+    .tooltip-font {
+        font: 12px sans-serif;
+    }
+}

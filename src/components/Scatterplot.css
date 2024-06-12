@@ -1,0 +1,9 @@
+
+
+.dot {
+    @apply stroke-black opacity-80;
+}
+
+#tooltip {
+    @apply absolute bg-[#b0c4de] p-[10px] rounded-lg tooltip-font text-left border-0 pointer-events-none;
+}

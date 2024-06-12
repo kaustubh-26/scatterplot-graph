@@ -1,12 +1,16 @@
-import './App.css'
+import './App.css';
+import Scatterplot from './components/Scatterplot';
 
 function App() {
-
   return (
     <>
-      <div>Scatterplot Graph</div>
+      <div className="main">
+        <div className="chart-container">
+            <Scatterplot />
+        </div>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
